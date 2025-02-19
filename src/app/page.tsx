@@ -1,5 +1,5 @@
 "use client";
-import { motion, useMotionValue, useTransform, animate } from "framer-motion";
+import { motion } from "framer-motion";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { useRef } from "react";
@@ -8,9 +8,6 @@ import {
   FiMail,
   FiGithub,
   FiLinkedin,
-  FiCpu,
-  FiZap,
-  FiGitBranch,
   FiExternalLink,
 } from "react-icons/fi";
 

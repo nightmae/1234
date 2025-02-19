@@ -1,16 +1,14 @@
 import type { Metadata } from "next";
-import { Inter, Geist_Mono } from "next/font/google"; // Import Inter font
-import { ScrollShadow } from "@nextui-org/scroll-shadow";
+import { Inter, Geist_Mono } from "next/font/google";
 import "@/app/globals.css";
 
-// Replace Geist with Inter for the primary font
 const interFont = Inter({
-  variable: "--font-inter", // Variable name for Inter font
+  variable: "--font-inter", 
   subsets: ["latin"],
 });
 
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono", // Keep Geist Mono as is
+  variable: "--font-geist-mono", 
   subsets: ["latin"],
 });
 
@@ -27,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="">
       <body
-        className={`${interFont.variable} ${geistMono.variable} antialiased`} // Apply Inter font here
+        className={`${interFont.variable} ${geistMono.variable} antialiased`}
       >
             {" "}
             {children}
