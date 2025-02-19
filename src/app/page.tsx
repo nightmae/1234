@@ -127,7 +127,7 @@ const Portfolio = () => {
                 Front-End Developer /
               </motion.span>
               <motion.span className="group-hover:text-red-500 transition-colors">
-                Translator / 
+                Translator /
               </motion.span>
               <motion.span
                 className="text-red-500 bg-gradient-to-r from-red-500 to-red-700 bg-clip-text text-transparent"
@@ -159,7 +159,7 @@ const Portfolio = () => {
               transition={{ delay: 0.5 }}
               className="text-2xl italic"
             >
-              "The only way to do great work is to love what you do."
+              &quot;The only way to do great work is to love what you do.&quot;
             </motion.blockquote>
           </motion.div>
 
@@ -183,7 +183,7 @@ const Portfolio = () => {
                 "GSAP",
                 "Framer Motion",
                 "Figma",
-              ].map((tech, i) => (
+              ].map((tech) => (
                 <motion.div
                   key={tech}
                   variants={itemVariants}
@@ -204,7 +204,7 @@ const Portfolio = () => {
           >
             Notable Work Experience
           </motion.h2>
-          
+
           <motion.div variants={itemVariants} className="space-y-8">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {projects.map((project) => (
