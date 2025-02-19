@@ -334,7 +334,7 @@ const Portfolio = () => {
                   title: "TalentHub",
                   link: "https://create.roblox.com/talent/creators/311742866",
                 },
-              ].map((contact, i) => (
+              ].map((contact) => (
                 <motion.div
                   key={contact.title}
                   {...magnetic}
