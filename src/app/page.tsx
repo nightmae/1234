@@ -130,7 +130,23 @@ const Portfolio = () => {
                 Front-End Developer /
               </motion.span>
               <motion.span className="group-hover:text-red-500 transition-colors">
-                Translator
+                Translator / 
+              </motion.span>
+              <motion.span
+                className="text-red-500 bg-gradient-to-r from-red-500 to-red-700 bg-clip-text text-transparent"
+                animate={{
+                  backgroundPositionX: ["0%", "100%"],
+                }}
+                transition={{
+                  repeat: Infinity,
+                  duration: 3,
+                  ease: "linear",
+                }}
+                style={{
+                  backgroundSize: "200% auto",
+                }}
+              >
+                ITS
               </motion.span>
             </motion.div>
           </motion.div>
